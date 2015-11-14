@@ -1,0 +1,10 @@
+.elements .electron-shell {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.elements section {
+  text-align: left;
+  margin-bottom: 4em;
+}
