@@ -2,18 +2,15 @@
 <!DOCTYPE svg>
 <svg version="1.1" baseProfile="full" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify"
 id="Electron shell Beryllium"
-viewBox="-1000 -1150 2000 2150"
+viewBox="-450 -450 900 900"
 width="800"
-height="860">
+height="800">
 <defs>
 <circle id="electron" fill="#77868b" stroke="none" r="30"/>
 </defs>
 
 <circle fill="#ffdead" r="200" stroke="#343434" stroke-width="10"/>
 <g font-size="100" font-weight="bold" font="arial">
-<text x="-750" y="-1000" text-anchor="end">4</text>
-<text x="-750" y="-1000">: Beryllium</text>
-<text x="900" y="-1000" text-anchor="end">2,2</text>
 <text x="0" y="50" font-size="150" text-anchor="middle">Be</text>
 </g>
 
