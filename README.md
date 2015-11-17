@@ -1,2 +1,2 @@
 # chemistry
-This project is for practicing using Bootstrap.
+This project is for practicing Bootstrap.
