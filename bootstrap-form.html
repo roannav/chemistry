@@ -62,14 +62,37 @@
     <small>(demo of Bootstrap form)</small></h1>
 </header><!-- container -->
 
-<div class="container elements">
+<div class="container">
   <div class="row">
-    <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-3">
-      <img class="electron-shell" src="images/Electron_shell_001_Hydrogen.svg" alt="Hydrogen">
-      <h3>Hydrogen</h3>
-      <p>*Hydrogen is the most abundant element. About 75% of the element mass of the universe is hydrogen.</p>
-    </section>
+    <section class="col-xs-12">
+      <form>
+        <div class="form-group">
+          <label for="inputName">Your Name</label>
+          <input class="form-control" type="text" 
+                 id="inputName" placeholder="Name">
+        </div>
 
+        <div class="form-group">
+          <label for="inputEmail">Your Email</label>
+          <input class="form-control" type="text" 
+                 id="inputEmail" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <label for="inputMessage">Message</label>
+          <textarea class="form-control" id="inputMessage" rows="10"></textarea>
+        </div>
+
+        <div class="checkbox">
+          <label>
+          <input id="inputAddEmailList" type="checkbox">
+          Subscribe to our email list</label>
+        </div>
+
+        <input class="btn btn-info" type="submit" value="Send Email">
+      </form>
+
+    </section>
   </div><!-- row -->   
 </div><!-- container elements -->
 
