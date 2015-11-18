@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Chemical Elements</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default light-blue-bg">
+  <div class="container">
+
+    <div class="navbar-header">
+      <!-- navbar mobile button -->
+      <button class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#chemistry-menu">
+        <!-- make hamburger icon -->
+        <!-- customary to make it this way, instead of using a glyphicon -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- navbar logo -->
+      <a id="website-name" href="index.html">
+        <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+        Chemistry.com
+      </a>
+    </div>
+
+    <!-- navbar links -->
+    <div class="collapse navbar-collapse" id="chemistry-menu">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bootstrap-table.html">Table</a></li>
+        <li class="active"><a href="bootstrap-form.html">Form</a></li>
+        <li><a href="bootstrap-media.html">Media</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle"
+             data-toggle="dropdown"
+             role="button">Other Links
+             <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.chem4kids.com">Chem 4 Kids</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://chemistry.about.com">About Chemistry</a></li>
+            <li><a href="http://www.acs.org">American Chemical Society</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="container">
+  <h1>Contact Us
+    <br class="hidden-md hidden-lg">
+    <small>(demo of Bootstrap form)</small></h1>
+</header><!-- container -->
+
+<div class="container elements">
+  <div class="row">
+    <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-3">
+      <img class="electron-shell" src="images/Electron_shell_001_Hydrogen.svg" alt="Hydrogen">
+      <h3>Hydrogen</h3>
+      <p>*Hydrogen is the most abundant element. About 75% of the element mass of the universe is hydrogen.</p>
+    </section>
+
+  </div><!-- row -->   
+</div><!-- container elements -->
+
+<div class="light-blue-bg">
+<footer class="container">
+
+</footer><!-- container -->
+
+</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
