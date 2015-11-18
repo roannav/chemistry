@@ -1,3 +1,20 @@
+/************************************
+ *  header and navbar 
+ ************************************/
+
+#website-name {
+  font-size: 2.2em;
+  text-decoration: none;
+}
+
+.light-blue-bg {
+  background-color: #d9edf7;
+}
+
+/************************************
+ *  main 
+ ************************************/
+
 .electron-shell {
   max-width: 150px;
   margin: 0 auto;
@@ -11,3 +28,4 @@
 table img {
   max-width: 50px;
 }
+

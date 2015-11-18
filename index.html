@@ -10,6 +10,52 @@
 </head>
 <body>
 
+<nav class="navbar navbar-default light-blue-bg">
+  <div class="container">
+
+    <div class="navbar-header">
+      <!-- navbar mobile button -->
+      <button class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#whatevername">
+        <!-- make hamburger icon -->
+        <!-- customary to make it this way, instead of using a glyphicon -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- navbar logo -->
+      <a id="website-name" href="index.html">
+        <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+        Chemistry.com
+      </a>
+    </div>
+
+    <!-- navbar links -->
+    <div class="collapse navbar-collapse" id="whatevername">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="bootstrap-table.html">Table</a></li>
+        <li><a href="bootstrap-form.html">Form</a></li>
+        <li><a href="bootstrap-media.html">Media</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle"
+             data-toggle="dropdown"
+             role="button">Other Links
+             <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.chem4kids.com">Chem 4 Kids</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://chemistry.about.com">About Chemistry</a></li>
+            <li><a href="http://www.acs.org">American Chemical Society</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <header class="container">
   <h1>First 12 Chemical Elements 
     <br class="hidden-md hidden-lg">
@@ -102,6 +148,7 @@
   </div><!-- row -->   
 </div><!-- container elements -->
 
+<div class="light-blue-bg">
 <footer class="container">
   Credits:
   <ul class="list-unstyled">
@@ -110,6 +157,7 @@
     <li>All electron shell diagrams from Greg Robson / Wikimedia Commons / CC-BY-SA-2.0 UK</li>
   </ul>
 </footer><!-- container -->
+</div>
 
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
