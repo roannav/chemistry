@@ -21,11 +21,31 @@
   display: block;
 }
 
+/************************************
+ *  index.html
+ ************************************/
+
 .elements section {
   text-align: center;
 }
+
+/************************************
+ *  bootstrap-table.html 
+ ************************************/
 
 table img {
   max-width: 50px;
 }
 
+/************************************
+ *  bootstrap-tabs.html 
+ ************************************/
+
+.elements-tabs section {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.elements-tabs img {
+  padding-right: 1em;
+}

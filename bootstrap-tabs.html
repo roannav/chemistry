@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Chemical Elements</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default light-blue-bg">
+  <div class="container">
+
+    <div class="navbar-header">
+      <!-- navbar mobile button -->
+      <button class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#chemistry-menu"
+              aria-expanded="false">
+        <span class="sr-only">Toggle menu</span>
+        <!-- make hamburger icon -->
+        <!-- customary to make it this way, instead of using a glyphicon -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- navbar logo -->
+      <a id="website-name" class="navbar-brand" href="index.html">
+        <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+        Chemistry.com
+      </a>
+    </div>
+
+    <!-- navbar links -->
+    <div class="collapse navbar-collapse" id="chemistry-menu">
+      
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control input-sm"
+                 placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </form>
+
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="bootstrap-table.html">Table</a></li>
+        <li><a href="bootstrap-form.html">Form</a></li>
+        <li><a href="bootstrap-media.html">Media</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle"
+             data-toggle="dropdown"
+             aria-haspopup="true"
+             aria-expanded="false"
+             role="button">Links
+             <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.chem4kids.com">Chem 4 Kids</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://chemistry.about.com">About Chemistry</a></li>
+            <li><a href="http://www.acs.org">American Chemical Society</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<header class="container">
+  <h1>First 12 Chemical Elements 
+    <br class="hidden-md hidden-lg">
+    <small>(demo of Bootstrap tabs and accordions)</small></h1>
+</header><!-- container -->
+
+<div class="container elements-tabs">
+  <div class="row">
+    <section class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a role="tab" data-toggle="tab"
+             href="#Hydrogen">Hydrogen</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Helium">Helium</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Lithium">Lithium</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Beryllium">Beryllium</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Boron">Boron</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Carbon">Carbon</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Nitrogen">Nitrogen</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Oxygen">Oxygen</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Fluorine">Fluorine</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Neon">Neon</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Sodium">Sodium</a>
+        </li>
+        <li role="presentation">
+          <a role="tab" data-toggle="tab"
+             href="#Magnesium">Magnesium</a>
+        </li>
+      </ul><!-- nav-tabs -->
+      <div class="tab-content">
+        <div role="tabpanel"
+             class="tab-pane active" 
+             id="Hydrogen">
+          <img class="electron-shell pull-left" src="images/Electron_shell_001_Hydrogen.svg" alt="Hydrogen">
+          <h3>Hydrogen</h3>
+          <p>*Hydrogen is the most abundant element. About 75% of the element mass of the universe is hydrogen.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Helium">
+          <img class="electron-shell pull-left" src="images/Electron_shell_002_Helium.svg" alt="Helium">
+          <h3>Helium</h3>
+          <p>*Helium is the second-most abundant element in the universe, though it is much less common on Earth.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Lithium">
+          <img class="electron-shell pull-left" src="images/Electron_shell_003_Lithium.svg" alt="Lithium">
+          <h3>Lithium</h3>
+          <p>*Lithium does not occur free in nature, though it is found in nearly all igneous rocks and in mineral springs.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Beryllium">
+          <img class="electron-shell pull-left" src="images/Electron_shell_004_Beryllium.svg" alt="Beryllium">
+          <h3>Beryllium</h3>
+          <p>**Beryllium gives emeralds their green or red hues and aquamarine its light blue.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Boron">
+          <img class="electron-shell pull-left" src="images/Electron_shell_005_Boron.svg" alt="Boron">
+          <h3>Boron</h3>
+          <p>**Boron when mixed in with glass, reduces thermal expansion and thus it makes for oven-proof pots and pans.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Carbon">
+          <img class="electron-shell pull-left" src="images/Electron_shell_006_Carbon.svg" alt="Carbon">
+          <h3>Carbon</h3>
+          <p>*Carbon compounds have limitless uses. In its elemental form, diamond is a gemstone and used for drilling/cutting; graphite is used in pencils, as a lubricant, and to protect against rust; while charcoal is used to remove toxins, tastes, and odors. The isotope Carbon-14 is used in radiocarbon dating.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Nitrogen">
+          <img class="electron-shell pull-left" src="images/Electron_shell_007_Nitrogen.svg" alt="Nitrogen">
+          <h3>Nitrogen</h3>
+          <p>*Nitrogen gas (N2) makes up 78.1% of the volume of the Earth's air.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Oxygen">
+          <img class="electron-shell pull-left" src="images/Electron_shell_008_Oxygen.svg" alt="Oxygen">
+          <h3>Oxygen</h3>
+          <p>*Animals and plants require oxygen for respiration.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Fluorine">
+          <img class="electron-shell pull-left" src="images/Electron_shell_009_Fluorine.svg" alt="Fluorine">
+          <h3>Fluorine</h3>
+          <p>**The “tiger of chemistry” is the most reactive of all elements; it even reacts which some of the heavier noble gases. Chemists spent a century trying to isolate it, and several died in the attempt.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Neon">
+          <img class="electron-shell pull-left" src="images/Electron_shell_010_Neon.svg" alt="Neon">
+          <h3>Neon</h3>
+          <p>**Neon is “mined” from the atmosphere, and its fluorescence makes it ideal for lamps.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Sodium">
+          <img class="electron-shell pull-left" src="images/Electron_shell_011_Sodium.svg" alt="Sodium">
+          <h3>Sodium</h3>
+          <p>When sodium combines with chlorine it becomes our everyday table salt.</p>
+        </div>
+        <div role="tabpanel"
+             class="tab-pane" 
+             id="Magnesium">
+          <img class="electron-shell pull-left" src="images/Electron_shell_012_Magnesium.svg" alt="Magnesium">
+          <h3>Magnesium</h3>
+          <p>**Another top-10 element in the Earth’s crust, it also has hundreds of roles in living cells, including human cells. In plants, every chlorophyll molecule has a magnesium ion at its heart.</p>
+        </div>
+      </div><!-- tab-content -->
+    </section>
+
+
+    <section class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6">
+      <div class="panel-group" id="elements-accordion"
+           role="tablist" aria-multiselectable="true">
+        <div class="panel panel-info">
+          <div class="panel-heading" role="tab" id="heading1">
+            <h4 class="panel-title">
+              <a href="#element1" role="button"
+                 data-toggle="collapse" data-parent="#elements-accordion"
+                 aria-expanded="false" aria-controls="element1">
+                 Hydrogen</a>
+            </h4>
+          </div>
+          <div class="panel-collapse collapse in" 
+               id="element1"
+               role="tabpanel"
+               arialabelledby="heading1">
+             <div class="panel-body">
+               <img class="electron-shell pull-left" src="images/Electron_shell_001_Hydrogen.svg" alt="Hydrogen">
+               <h3>Hydrogen</h3>
+               <p>*Hydrogen is the most abundant element. About 75% of the element mass of the universe is hydrogen.</p>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-group" id="elements-accordion2"
+           role="tablist" aria-multiselectable="true">
+        <div class="panel panel-info">
+          <div class="panel-heading" role="tab" id="heading2">
+            <h4 class="panel-title">
+              <a href="#element2" 
+                 class="collapsed"
+                 role="button"
+                 data-toggle="collapse" data-parent="#elements-accordion2"
+                 aria-expanded="false" aria-controls="element2">
+                 Helium</a>
+            </h4>
+          </div>
+          <div class="panel-collapse collapse" 
+               id="element2"
+               role="tabpanel"
+               arialabelledby="heading2">
+             <div class="panel-body">
+               <img class="electron-shell pull-left" src="images/Electron_shell_002_Helium.svg" alt="Helium">
+               <h3>Helium</h3>
+               <p>*Helium is the second-most abundant element in the universe, though it is much less common on Earth.</p>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-group" id="elements-accordion3"
+           role="tablist" aria-multiselectable="true">
+        <div class="panel panel-info">
+          <div class="panel-heading" role="tab" id="heading3">
+            <h4 class="panel-title">
+              <a href="#element3" 
+                 class="collapsed"
+                 role="button"
+                 data-toggle="collapse" data-parent="#elements-accordion3"
+                 aria-expanded="false" aria-controls="element3">
+                 Lithium</a>
+            </h4>
+          </div>
+          <div class="panel-collapse collapse" 
+               id="element3"
+               role="tabpanel"
+               arialabelledby="heading3">
+             <div class="panel-body">
+               <img class="electron-shell pull-left" src="images/Electron_shell_003_Lithium.svg" alt="Lithium">
+               <h3>Lithium</h3>
+               <p>*Lithium does not occur free in nature, though it is found in nearly all igneous rocks and in mineral springs.</p>
+             </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div><!-- row -->   
+</div><!-- container elements -->
+
+<div class="light-blue-bg">
+<footer class="container">
+</footer><!-- container -->
+</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
