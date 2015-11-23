@@ -73,9 +73,55 @@
 
 <header class="container">
   <h1>First 12 Chemical Elements 
-    <br class="hidden-md hidden-lg">
-    <small>(demo of Bootstrap tabs and accordions)</small></h1>
+    <br class="hidden-lg">
+    <small>(demo of Bootstrap tooltips, popovers, tabs and accordions)</small></h1>
 </header><!-- container -->
+
+<div class="container">
+  <div class="row">
+    <section class="col-xs-12">
+      <div class="btn-toolbar" role="toolbar" aria-label="...">
+        <div class="btn-group btn-group-lg" role="group" aria-label="...">
+          <button type="button" class="btn btn-default" data-toggle="tooltip"
+            data-placement="top" title="Hydrogen">H</button>
+          <button type="button" class="btn btn-default" data-toggle="tooltip"
+            data-placement="top" title="Helium">He</button>
+          <button type="button" class="btn btn-default" data-toggle="tooltip"
+            data-placement="top" title="Lithium">Li</button>
+          <button type="button" class="btn btn-default" data-toggle="tooltip"
+            data-placement="top" title="Beryllium">Be</button>
+        </div>
+
+        <div class="btn-group btn-group-lg" role="group" aria-label="...">
+          <button type="button" class="btn btn-default" 
+            data-container="body" data-toggle="popover" 
+            data-placement="left" title="Boron"
+            data-content="**Boron when mixed in with glass, reduces thermal expansion and thus it makes for oven-proof pots and pans.">
+            B 
+          </button>
+          <button type="button" class="btn btn-default" 
+            data-container="body" data-toggle="popover" 
+            data-placement="left" title="Carbon"
+            data-content="*Carbon compounds have limitless uses. In its elemental form, diamond is a gemstone and used for drilling/cutting; graphite is used in pencils, as a lubricant, and to protect against rust; while charcoal is used to remove toxins, tastes, and odors. The isotope Carbon-14 is used in radiocarbon dating.">
+            C 
+          </button>
+          <button type="button" class="btn btn-default" 
+            data-container="body" data-toggle="popover" 
+            data-placement="left" title="Nitrogen"
+            data-content="*Nitrogen gas (N2) makes up 78.1% of the volume of the Earth's air.">
+            N 
+          </button>
+          <button type="button" class="btn btn-default" 
+            data-container="body" data-toggle="popover" 
+            data-placement="left" title="Oxygen"
+            data-content="*Animals and plants require oxygen for respiration.">
+            O 
+          </button>
+        </div>
+      </div>
+    </section>
+  </div><!-- row -->   
+</div><!-- container -->
 
 <div class="container elements-tabs">
   <div class="row">
